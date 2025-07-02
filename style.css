@@ -1,17 +1,18 @@
 /* style.css - Custom styling for Streamlit app */
 
 /* Background and font */
-[data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%) !important;
-    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif !important;
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #222 !important;
 }
 
 /* Title */
-[data-testid="stHeader"] h1, .stTitle {
-    color: #2d3748 !important;
-    font-weight: 700 !important;
-    letter-spacing: 1px !important;
-    text-align: center !important;
+h1, .stTitle {
+    color: #1a202c !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 /* Button */
@@ -48,4 +49,9 @@
     color: #64748b !important;
     font-size: 1em !important;
     text-align: center !important;
+}
+
+.stMarkdown, [data-testid="stMarkdownContainer"] {
+    color: #222 !important;
+    font-size: 1.1em;
 }
